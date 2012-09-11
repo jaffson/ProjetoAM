@@ -1,0 +1,23 @@
+﻿@model AgendaMedica.Model.Especialidade
+
+@{
+    ViewBag.Title = "Excluir - Especialidade Médica";
+}
+
+<h2>Excluir - Especialidade Médica</h2>
+
+<h3>Deseja realmente excluir este registro?</h3>
+<fieldset>
+    <legend>Especialidade</legend>
+
+    <div class="display-label">Nome</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Nome)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input  type="submit" class="ui-state-default"  value="Excluir" /> |
+        @Html.ActionLink("Retornar para a Lista", "Index")
+    </p>
+}

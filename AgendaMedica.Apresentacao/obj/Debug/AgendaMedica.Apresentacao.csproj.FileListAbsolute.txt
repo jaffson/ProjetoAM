@@ -1,0 +1,60 @@
+D:\Projetos\AM\2012\AgendaMedica\AgendaMedica\AgendaMedica.Apresentacao\bin\AgendaMedica.Apresentacao.dll
+D:\Projetos\AM\2012\AgendaMedica\AgendaMedica\AgendaMedica.Apresentacao\bin\AgendaMedica.Apresentacao.pdb
+D:\Projetos\AM\2012\AgendaMedica\AgendaMedica\AgendaMedica.Apresentacao\bin\EntityFramework.dll
+D:\Projetos\AM\2012\AgendaMedica\AgendaMedica\AgendaMedica.Apresentacao\bin\EntityFramework.xml
+D:\Projetos\AM\2012\AgendaMedica\AgendaMedica\AgendaMedica.Apresentacao\obj\Debug\AgendaMedica.Apresentacao.csprojResolveAssemblyReference.cache
+D:\Projetos\AM\2012\AgendaMedica\AgendaMedica\AgendaMedica.Apresentacao\obj\Debug\AgendaMedica.Apresentacao.dll
+D:\Projetos\AM\2012\AgendaMedica\AgendaMedica\AgendaMedica.Apresentacao\obj\Debug\AgendaMedica.Apresentacao.pdb
+D:\Projetos\AM\2012\AgendaMedica\AgendaMedica\AgendaMedica.Apresentacao\bin\AgendaMedica.Model.dll
+D:\Projetos\AM\2012\AgendaMedica\AgendaMedica\AgendaMedica.Apresentacao\bin\AgendaMedica.Repositorio.dll
+D:\Projetos\AM\2012\AgendaMedica\AgendaMedica\AgendaMedica.Apresentacao\bin\AgendaMedica.Model.pdb
+D:\Projetos\AM\2012\AgendaMedica\AgendaMedica\AgendaMedica.Apresentacao\bin\AgendaMedica.Repositorio.pdb
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v3\AgendaMedica.Apresentacao\bin\AgendaMedica.Apresentacao.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v3\AgendaMedica.Apresentacao\bin\AgendaMedica.Apresentacao.pdb
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v3\AgendaMedica.Apresentacao\bin\AgendaMedica.Model.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v3\AgendaMedica.Apresentacao\bin\AgendaMedica.Repositorio.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v3\AgendaMedica.Apresentacao\bin\AgendaMedica.Model.pdb
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v3\AgendaMedica.Apresentacao\bin\AgendaMedica.Repositorio.pdb
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v3\AgendaMedica.Apresentacao\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v3\AgendaMedica.Apresentacao\obj\Debug\AgendaMedica.Apresentacao.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v3\AgendaMedica.Apresentacao\obj\Debug\AgendaMedica.Apresentacao.pdb
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v4\AgendaMedica.Apresentacao\bin\AgendaMedica.Apresentacao.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v4\AgendaMedica.Apresentacao\bin\AgendaMedica.Apresentacao.pdb
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v4\AgendaMedica.Apresentacao\bin\AgendaMedica.Model.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v4\AgendaMedica.Apresentacao\bin\AgendaMedica.Repositorio.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v4\AgendaMedica.Apresentacao\bin\AgendaMedica.Model.pdb
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v4\AgendaMedica.Apresentacao\bin\AgendaMedica.Repositorio.pdb
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v4\AgendaMedica.Apresentacao\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v4\AgendaMedica.Apresentacao\obj\Debug\AgendaMedica.Apresentacao.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v4\AgendaMedica.Apresentacao\obj\Debug\AgendaMedica.Apresentacao.pdb
+C:\Users\Administrador\Desktop\AM\AgendaMedica_v5\AgendaMedica.Apresentacao\bin\AgendaMedica.Apresentacao.dll
+C:\Users\Administrador\Desktop\AM\AgendaMedica_v5\AgendaMedica.Apresentacao\bin\AgendaMedica.Apresentacao.pdb
+C:\Users\Administrador\Desktop\AM\AgendaMedica_v5\AgendaMedica.Apresentacao\bin\AgendaMedica.Model.dll
+C:\Users\Administrador\Desktop\AM\AgendaMedica_v5\AgendaMedica.Apresentacao\bin\AgendaMedica.Repositorio.dll
+C:\Users\Administrador\Desktop\AM\AgendaMedica_v5\AgendaMedica.Apresentacao\bin\EntityFramework.dll
+C:\Users\Administrador\Desktop\AM\AgendaMedica_v5\AgendaMedica.Apresentacao\bin\AgendaMedica.Model.pdb
+C:\Users\Administrador\Desktop\AM\AgendaMedica_v5\AgendaMedica.Apresentacao\bin\AgendaMedica.Repositorio.pdb
+C:\Users\Administrador\Desktop\AM\AgendaMedica_v5\AgendaMedica.Apresentacao\bin\EntityFramework.xml
+C:\Users\Administrador\Desktop\AM\AgendaMedica_v5\AgendaMedica.Apresentacao\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\AM\AgendaMedica_v5\AgendaMedica.Apresentacao\obj\Debug\AgendaMedica.Apresentacao.dll
+C:\Users\Administrador\Desktop\AM\AgendaMedica_v5\AgendaMedica.Apresentacao\obj\Debug\AgendaMedica.Apresentacao.pdb
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao\bin\AgendaMedica.Apresentacao.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao\bin\AgendaMedica.Apresentacao.pdb
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao\bin\AgendaMedica.Model.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao\bin\AgendaMedica.Repositorio.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao\bin\AgendaMedica.Model.pdb
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao\bin\AgendaMedica.Repositorio.pdb
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao\obj\Debug\AgendaMedica.Apresentacao.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao\obj\Debug\AgendaMedica.Apresentacao.pdb
+D:\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao\bin\AgendaMedica.Apresentacao.dll
+D:\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao\bin\AgendaMedica.Apresentacao.pdb
+D:\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao\bin\AgendaMedica.Model.dll
+D:\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao\bin\AgendaMedica.Repositorio.dll
+D:\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao\bin\EntityFramework.dll
+D:\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao\bin\AgendaMedica.Model.pdb
+D:\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao\bin\AgendaMedica.Repositorio.pdb
+D:\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao\bin\EntityFramework.xml
+D:\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao\obj\Debug\AgendaMedica.Apresentacao.csprojResolveAssemblyReference.cache
+D:\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao\obj\Debug\AgendaMedica.Apresentacao.dll
+D:\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao\obj\Debug\AgendaMedica.Apresentacao.pdb

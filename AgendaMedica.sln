@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaMedica.Model", "AgendaMedica.Model\AgendaMedica.Model.csproj", "{E29F1796-E548-473B-9908-CC43D9A69B14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaMedica.Repositorio", "AgendaMedica.Repositorio\AgendaMedica.Repositorio.csproj", "{14365994-9C69-4062-BEB3-1253B9B9D494}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaMedica.Apresentacao", "AgendaMedica.Apresentacao\AgendaMedica.Apresentacao.csproj", "{10367F8B-D117-413E-BE94-38F2C9684EA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaMedica.Apresentacao.Tests", "AgendaMedica.Apresentacao.Tests\AgendaMedica.Apresentacao.Tests.csproj", "{24581138-E203-480E-8BA8-319126C88174}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E29F1796-E548-473B-9908-CC43D9A69B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E29F1796-E548-473B-9908-CC43D9A69B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E29F1796-E548-473B-9908-CC43D9A69B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E29F1796-E548-473B-9908-CC43D9A69B14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14365994-9C69-4062-BEB3-1253B9B9D494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14365994-9C69-4062-BEB3-1253B9B9D494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14365994-9C69-4062-BEB3-1253B9B9D494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14365994-9C69-4062-BEB3-1253B9B9D494}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10367F8B-D117-413E-BE94-38F2C9684EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10367F8B-D117-413E-BE94-38F2C9684EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10367F8B-D117-413E-BE94-38F2C9684EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10367F8B-D117-413E-BE94-38F2C9684EA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24581138-E203-480E-8BA8-319126C88174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24581138-E203-480E-8BA8-319126C88174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24581138-E203-480E-8BA8-319126C88174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24581138-E203-480E-8BA8-319126C88174}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

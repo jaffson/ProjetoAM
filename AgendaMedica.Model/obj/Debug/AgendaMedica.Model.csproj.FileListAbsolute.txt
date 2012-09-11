@@ -1,0 +1,10 @@
+D:\Projetos\AM\2012\AgendaMedica\AgendaMedica\AgendaMedica.Model\bin\Debug\AgendaMedica.Model.dll
+D:\Projetos\AM\2012\AgendaMedica\AgendaMedica\AgendaMedica.Model\bin\Debug\AgendaMedica.Model.pdb
+D:\Projetos\AM\2012\AgendaMedica\AgendaMedica\AgendaMedica.Model\obj\Debug\AgendaMedica.Model.dll
+D:\Projetos\AM\2012\AgendaMedica\AgendaMedica\AgendaMedica.Model\obj\Debug\AgendaMedica.Model.pdb
+D:\Projetos\AM\2012\AgendaMedica\AgendaMedica\AgendaMedica.Model\obj\Debug\AgendaMedica.Model.csprojResolveAssemblyReference.cache
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v3\AgendaMedica.Model\bin\Debug\AgendaMedica.Model.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v3\AgendaMedica.Model\bin\Debug\AgendaMedica.Model.pdb
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v3\AgendaMedica.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v3\AgendaMedica.Model\obj\Debug\AgendaMedica.Model.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v3\AgendaMedica.Model\obj\Debug\AgendaMedica.Model.pdb

@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="10367F8B-D117-413E-BE94-38F2C9684EA6" ModuleId="AgendaMedica.Apresentacao" />
+  <Module PersistentId="E29F1796-E548-473B-9908-CC43D9A69B14" ModuleId="AgendaMedica.Model" />
+  <Module PersistentId="14365994-9C69-4062-BEB3-1253B9B9D494" ModuleId="AgendaMedica.Repositorio" />
+</Modules>

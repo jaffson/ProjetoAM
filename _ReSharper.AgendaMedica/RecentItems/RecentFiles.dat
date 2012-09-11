@@ -1,0 +1,40 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/f:Web.config" caret="827" fromTop="0" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Views/d:Paciente/f:Index.cshtml" caret="405" fromTop="11" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Controllers/f:Agenda2Controller.cs" caret="651" fromTop="8" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Scripts/f:multiuser_util.js" caret="3534" fromTop="108" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Models/f:CalendarEvent.cs" caret="494" fromTop="18" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Views/d:Shared/f:_LogOnPartial.cshtml" caret="0" fromTop="0" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Controllers/f:HomeController.cs" caret="314" fromTop="12" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Views/d:Home/f:Index.cshtml" caret="80" fromTop="6" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Controllers/f:PacienteController.cs" caret="1435" fromTop="13" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Views/d:Medico/f:Excluir.cshtml" caret="972" fromTop="11" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Views/d:Paciente/f:Excluir.cshtml" caret="1509" fromTop="19" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Views/d:Paciente/f:Editar.cshtml" caret="2811" fromTop="15" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Views/d:Medico/f:Editar.cshtml" caret="1673" fromTop="25" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Views/d:Medico/f:Adicionar.cshtml" caret="1601" fromTop="26" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Views/d:Medico/f:Index.cshtml" caret="251" fromTop="8" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Controllers/f:AgendaController.cs" caret="1559" fromTop="12" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Views/d:Agenda/f:Index.cshtml" caret="199" fromTop="7" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Scripts/d:agenda-views_files/f:_loader.js" caret="365" fromTop="14" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Views/d:Shared/f:_Layout.cshtml" caret="96" fromTop="4" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/f:Web.config" caret="619" fromTop="13" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Views/d:Medico/f:Index.cshtml" caret="122" fromTop="6" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Views/d:Paciente/f:Index.cshtml" caret="166" fromTop="6" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Views/d:Medico/f:Editar.cshtml" caret="1655" fromTop="25" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Views/d:Paciente/f:Editar.cshtml" caret="2811" fromTop="15" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Views/d:Medico/f:Excluir.cshtml" caret="891" fromTop="7" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Views/d:Paciente/f:Excluir.cshtml" caret="1509" fromTop="19" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Controllers/f:HomeController.cs" caret="314" fromTop="12" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Views/d:Home/f:Index.cshtml" caret="80" fromTop="6" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Models/f:CalendarEvent.cs" caret="482" fromTop="16" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Controllers/f:AgendaController.cs" caret="1470" fromTop="15" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Scripts/f:multiuser_util.js" caret="3534" fromTop="15" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Views/d:Shared/f:_Layout.cshtml" caret="96" fromTop="4" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Views/d:Agenda/f:Index.cshtml" caret="199" fromTop="7" />
+    <File id="10367F8B-D117-413E-BE94-38F2C9684EA6/d:Scripts/d:agenda-views_files/f:_loader.js" caret="199" fromTop="5" />
+  </RecentEdits>
+</RecentFiles>

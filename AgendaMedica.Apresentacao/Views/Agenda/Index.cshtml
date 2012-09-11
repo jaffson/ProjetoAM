@@ -1,0 +1,312 @@
+﻿@{
+    ViewBag.Title = "Index";
+     Layout = "~/Views/Shared/_Layout.cshtml";
+    //Layout=null;
+}
+<h2>Agenda</h2>
+    
+
+<link rel="stylesheet" type="text/css" href="../../Scripts/src/main.css">
+<link rel="stylesheet" type="text/css" href="../../Scripts/src/common/common.css">
+<link rel="stylesheet" type="text/css" href="../../Scripts/src/basic/basic.css">
+<link rel="stylesheet" type="text/css" href="../../Scripts/src/agenda/agenda.css">
+<link rel="stylesheet" type="text/css" href="../../Scripts/src/resources/resource.css">
+<link rel="stylesheet" type="text/css" href="../../Scripts/src/common/print.css" media="print">
+
+<script type="text/javascript" src="../../Scripts/src/defaults.js"></script>
+<script type="text/javascript" src="../../Scripts/src/main.js"></script>
+<script type="text/javascript" src="../../Scripts/src/Calendar.js"></script>
+<script type="text/javascript" src="../../Scripts/src/Header.js"></script>
+<script type="text/javascript" src="../../Scripts/src/EventManager.js"></script>
+<script type="text/javascript" src="../../Scripts/src/date_util.js"></script>
+<script type="text/javascript" src="../../Scripts/src/util.js"></script>
+<script type="text/javascript" src="../../Scripts/src/basic/MonthView.js"></script>
+<script type="text/javascript" src="../../Scripts/src/basic/BasicWeekView.js"></script>
+<script type="text/javascript" src="../../Scripts/src/basic/BasicDayView.js"></script>
+<script type="text/javascript" src="../../Scripts/src/basic/BasicView.js"></script>
+<script type="text/javascript" src="../../Scripts/src/basic/BasicEventRenderer.js"></script>
+<script type="text/javascript" src="../../Scripts/src/agenda/AgendaWeekView.js"></script>
+<script type="text/javascript" src="../../Scripts/src/agenda/AgendaDayView.js"></script>
+<script type="text/javascript" src="../../Scripts/src/agenda/AgendaView.js"></script>
+<script type="text/javascript" src="../../Scripts/src/agenda/AgendaEventRenderer.js"></script>
+<script type="text/javascript" src="../../Scripts/src/resources/ResourceDayView.js"></script>
+<script type="text/javascript" src="../../Scripts/src/resources/ResourceView.js"></script>
+<script type="text/javascript" src="../../Scripts/src/resources/ResourceList.js"></script>
+<script type="text/javascript" src="../../Scripts/src/resources/ResourceEventRenderer.js"></script>
+<script type="text/javascript" src="../../Scripts/src/common/View.js"></script>
+<script type="text/javascript" src="../../Scripts/src/common/DayEventRenderer.js"></script>
+<script type="text/javascript" src="../../Scripts/src/common/SelectionManager.js"></script>
+<script type="text/javascript" src="../../Scripts/src/common/OverlayManager.js"></script>
+<script type="text/javascript" src="../../Scripts/src/common/CoordinateGrid.js"></script>
+<script type="text/javascript" src="../../Scripts/src/common/HoverListener.js"></script>
+<script type="text/javascript" src="../../Scripts/src/common/HorizontalPositionCache.js"></script>
+
+<script type='text/javascript'>
+    var currentUpdateEvent;
+    var addStartDate;
+    var addEndDate;
+    var globalAllDay;
+   
+    
+    
+    
+
+    function selectDate(start, end, allDay) {
+        
+    $('#addDialog').dialog('open');
+
+
+    $("#addEventStartDate").text("" + start.toLocaleString());
+    $("#addEventEndDate").text("" + end.toLocaleString());
+
+
+    addStartDate = start;
+    addEndDate = end;
+    globalAllDay = allDay;
+    
+
+}
+
+ $(document).ready(function () 
+    {
+       
+    function AtualizarAgendamento(event, element) 
+    {    
+        
+        alert(JSON.stringify($.getJSON("/Agenda/ObterProfissionais")));
+
+        if ($(this).data("qtip")) 
+            $(this).qtip("destroy");
+
+        currentUpdateEvent = event;
+
+        $('#updatedialog').dialog('open');
+        $("#eventName").val(event.title);
+        $("#eventDesc").val(event.description);
+        $("#eventId").val(event.id);
+        $("#eventStart").text("" + event.start.toLocaleString());
+
+        if (event.end === null) 
+        {
+            $("#eventEnd").text("");
+        }
+        else 
+        {
+            $("#eventEnd").text("" + event.end.toLocaleString());
+        }
+
+    }   
+
+    
+    var date = new Date();
+    var d = date.getDate();
+    var m = date.getMonth();
+    var y = date.getFullYear();
+
+   
+    
+
+        $('#calendar').fullCalendar
+        (
+            {
+                header: 
+                {
+			        left: 'prev,next today',
+			        center: 'title',			        
+                    right: 'resourceDay,month,agendaWeek,agendaDay'              
+		        },
+                theme:true,
+                selectable: true,
+                editable: true,
+                resources: JSON.stringify($.getJSON("/Agenda/ObterProfissionais")), 
+                events: "/Agenda/ObterEventos",                
+                eventClick:AtualizarAgendamento,
+                select: selectDate
+               
+                   
+            }
+        );
+
+
+    // update Dialog
+    $('#updatedialog').dialog
+        (
+            {
+                autoOpen: false,
+                width: 470,
+                buttons: {
+                "Salvar": function() 
+                {
+                    //alert(currentUpdateEvent.title);
+                    var agendamentoAtualizar = 
+                    {
+                        id: currentUpdateEvent.id,
+                        title: $("#eventName").val(),
+                        description: $("#eventDesc").val()
+                    };
+                              
+                
+                    $.ajax
+                    ({
+                        url: '/Agenda/AtualizarAgendamento',
+                        type: "POST",
+                        data: agendamentoAtualizar,
+                    });
+                                        
+                    $(this).dialog("close");
+
+                    currentUpdateEvent.title = $("#eventName").val();
+                    currentUpdateEvent.description = $("#eventDesc").val();
+                    
+                    $('#calendar').fullCalendar('updateEvent', currentUpdateEvent);
+                
+             },
+            "Excluir": function() 
+            {
+                var agendamentoExcluir = 
+                    {
+                        id: currentUpdateEvent.id,
+                    
+                    };
+                if (confirm("Deseja realmente excluir este agendamento?")) 
+                {
+                    
+                     $.ajax
+                    ({
+                        url: '/Agenda/ExcluirAgendamento',
+                        type: "POST",
+                        data: agendamentoExcluir,
+                    });
+
+                    $(this).dialog("close");
+                    
+                    $('#calendar').fullCalendar('removeEvents', $("#eventId").val());
+
+                }
+
+            }
+
+        }
+    });
+
+    //add dialog
+    $('#addDialog').dialog
+    ({
+        autoOpen: false,
+        width: 470,
+        buttons: {
+            "Salvar": function() {
+               
+                var agendamentoNovo = {                                        
+                    title: $("addEventName").val(),
+                    description: $("#addEventDesc").val(),
+                    start: $.fullCalendar.formatDate(addStartDate, "yyyy-MM-dd hh:mm:ss"),
+                    end: $.fullCalendar.formatDate(addEndDate, "yyyy-MM-dd hh:mm:ss")
+
+                };
+                                
+                    //alert("sending " + eventToAdd.title);
+
+                     $.ajax
+                    ({
+                        url: '/Agenda/InserirAgendamento',
+                        type: "POST",
+                        data: agendamentoNovo,
+                    });
+                    $(this).dialog("close");
+                alert($("#addEventName").val());
+                    currentUpdateEvent.title = $("#addEventName").val();
+                    currentUpdateEvent.description = $("#addEventDesc").val();
+                    
+                    $('#calendar').fullCalendar('updateEvent', currentUpdateEvent);
+                
+
+            }
+
+        }
+    });
+  
+
+ });
+   
+</script>
+
+   <style type="text/css">
+	
+	#calendar {
+		
+		width: 50%;
+	}
+	
+	
+
+</style>
+<div id="calendar"></div>
+	
+<div id="updatedialog" style="font: 70% 'Trebuchet MS', sans-serif; margin: 50px;"
+    title="Atualizar ou Excluir Agendamento">
+    <table cellpadding="0" class="style1">
+        <tr>
+            <td class="alignRight">
+                Nome:
+            </td>
+            <td class="alignLeft">
+                <input id="eventName" type="text" /><br />
+            </td>
+        </tr>
+        <tr>
+            <td class="alignRight">
+                Descrição:
+            </td>
+            <td class="alignLeft">
+                <textarea id="eventDesc" cols="30" rows="3"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td class="alignRight">
+                Inicio:
+            </td>
+            <td class="alignLeft">
+                <span id="eventStart"></span>
+            </td>
+        </tr>
+        <tr>
+            <td class="alignRight">
+                Fim:
+            </td>
+            <td class="alignLeft">
+                <span id="eventEnd"></span>
+                <input type="hidden" id="eventId" />
+            </td>
+        </tr>
+    </table>
+</div>
+<div id="addDialog" style="font: 70% 'Trebuchet MS', sans-serif; margin: 50px;" title="Novo Agendamento">
+    <table cellpadding="0" class="style1">
+            <tr>
+                <td class="alignRight">
+                    name:</td>
+                <td class="alignLeft">
+                    <input id="addEventName" type="text" size="50" /><br /></td>
+            </tr>
+            <tr>
+                <td class="alignRight">
+                    description:</td>
+                <td class="alignLeft">
+                    <textarea id="addEventDesc" cols="30" rows="3" ></textarea></td>
+            </tr>
+            <tr>
+                <td class="alignRight">
+                    start:</td>
+                <td class="alignLeft">
+                    <span id="addEventStartDate" ></span></td>
+            </tr>
+            <tr>
+                <td class="alignRight">
+                    end:</td>
+                <td class="alignLeft">
+                    <span id="addEventEndDate" ></span></td>
+            </tr>
+        </table>
+        
+    </div>

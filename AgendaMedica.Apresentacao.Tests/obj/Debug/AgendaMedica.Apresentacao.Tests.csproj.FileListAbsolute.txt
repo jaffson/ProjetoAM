@@ -1,0 +1,60 @@
+D:\Projetos\AM\2012\AgendaMedica\AgendaMedica\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Apresentacao.Tests.dll.config
+D:\Projetos\AM\2012\AgendaMedica\AgendaMedica\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Apresentacao.Tests.dll
+D:\Projetos\AM\2012\AgendaMedica\AgendaMedica\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Apresentacao.Tests.pdb
+D:\Projetos\AM\2012\AgendaMedica\AgendaMedica\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Apresentacao.dll
+D:\Projetos\AM\2012\AgendaMedica\AgendaMedica\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Apresentacao.pdb
+D:\Projetos\AM\2012\AgendaMedica\AgendaMedica\AgendaMedica.Apresentacao.Tests\obj\Debug\AgendaMedica.Apresentacao.Tests.csprojResolveAssemblyReference.cache
+D:\Projetos\AM\2012\AgendaMedica\AgendaMedica\AgendaMedica.Apresentacao.Tests\obj\Debug\AgendaMedica.Apresentacao.Tests.dll
+D:\Projetos\AM\2012\AgendaMedica\AgendaMedica\AgendaMedica.Apresentacao.Tests\obj\Debug\AgendaMedica.Apresentacao.Tests.pdb
+D:\Projetos\AM\2012\AgendaMedica\AgendaMedica\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Repositorio.dll
+D:\Projetos\AM\2012\AgendaMedica\AgendaMedica\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Model.dll
+D:\Projetos\AM\2012\AgendaMedica\AgendaMedica\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Repositorio.pdb
+D:\Projetos\AM\2012\AgendaMedica\AgendaMedica\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Model.pdb
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v3\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Apresentacao.Tests.dll.config
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v3\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Apresentacao.Tests.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v3\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Apresentacao.Tests.pdb
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v3\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Apresentacao.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v3\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Repositorio.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v3\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Model.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v3\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Apresentacao.pdb
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v3\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Repositorio.pdb
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v3\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Model.pdb
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v3\AgendaMedica.Apresentacao.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v3\AgendaMedica.Apresentacao.Tests\obj\Debug\AgendaMedica.Apresentacao.Tests.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v3\AgendaMedica.Apresentacao.Tests\obj\Debug\AgendaMedica.Apresentacao.Tests.pdb
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v4\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Apresentacao.Tests.dll.config
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v4\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Apresentacao.Tests.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v4\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Apresentacao.Tests.pdb
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v4\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Apresentacao.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v4\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Repositorio.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v4\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Model.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v4\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Apresentacao.pdb
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v4\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Repositorio.pdb
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v4\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Model.pdb
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v4\AgendaMedica.Apresentacao.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v4\AgendaMedica.Apresentacao.Tests\obj\Debug\AgendaMedica.Apresentacao.Tests.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica_v4\AgendaMedica.Apresentacao.Tests\obj\Debug\AgendaMedica.Apresentacao.Tests.pdb
+C:\Users\Administrador\Desktop\AM\AgendaMedica_v5\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Apresentacao.Tests.dll.config
+C:\Users\Administrador\Desktop\AM\AgendaMedica_v5\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Apresentacao.Tests.dll
+C:\Users\Administrador\Desktop\AM\AgendaMedica_v5\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Apresentacao.Tests.pdb
+C:\Users\Administrador\Desktop\AM\AgendaMedica_v5\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Apresentacao.dll
+C:\Users\Administrador\Desktop\AM\AgendaMedica_v5\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Repositorio.dll
+C:\Users\Administrador\Desktop\AM\AgendaMedica_v5\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Model.dll
+C:\Users\Administrador\Desktop\AM\AgendaMedica_v5\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Apresentacao.pdb
+C:\Users\Administrador\Desktop\AM\AgendaMedica_v5\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Repositorio.pdb
+C:\Users\Administrador\Desktop\AM\AgendaMedica_v5\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Model.pdb
+C:\Users\Administrador\Desktop\AM\AgendaMedica_v5\AgendaMedica.Apresentacao.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\AM\AgendaMedica_v5\AgendaMedica.Apresentacao.Tests\obj\Debug\AgendaMedica.Apresentacao.Tests.dll
+C:\Users\Administrador\Desktop\AM\AgendaMedica_v5\AgendaMedica.Apresentacao.Tests\obj\Debug\AgendaMedica.Apresentacao.Tests.pdb
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Apresentacao.Tests.dll.config
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Apresentacao.Tests.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Apresentacao.Tests.pdb
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Apresentacao.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Repositorio.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Model.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Apresentacao.pdb
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Repositorio.pdb
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao.Tests\bin\Debug\AgendaMedica.Model.pdb
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao.Tests\obj\Debug\AgendaMedica.Apresentacao.Tests.dll
+C:\Documents and Settings\jean.augusto\Desktop\AgendaMedica\AgendaMedica_v6\AgendaMedica.Apresentacao.Tests\obj\Debug\AgendaMedica.Apresentacao.Tests.pdb

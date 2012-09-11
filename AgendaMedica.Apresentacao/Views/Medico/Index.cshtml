@@ -1,0 +1,61 @@
+﻿@model IEnumerable<AgendaMedica.Model.Medico>
+@{
+    ViewBag.Title = "Medicos";
+}
+<h2>
+    Cadastro de Médicos</h2>
+<input class="ui-state-default" id="btnNovo" onclick="window.location='Adicionar/Adicionar'"
+    type="button" value="Novo" />
+<table class="ui-widget ui-widget-content">
+    <thead class="ui-widget-header">
+        <tr>
+            <th>
+                Nome
+            </th>
+            <th>
+                Cpf
+            </th>
+            <th>
+                Crm
+            </th>
+            <th>
+                DataNascimento
+            </th>
+            <th>
+            </th>
+        </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cpf)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Crm)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataNascimento)
+            </td>
+            @*<td>
+            @Html.ActionLink("Editar", "Editar", new { id=item.Id }) |
+            @Html.ActionLink("Detalhes", "Detalhes", new { id=item.Id }) |
+            @Html.ActionLink("Excluir", "Excluir", new { id=item.Id })
+        </td>*@
+            <td class="button-container">
+                <div class="ui-state-default ui-corner-all">
+                    @Html.ActionLink("Editar", "Editar", new { id = item.Id }, new { @class = "ui-icon  ui-icon-pencil" })
+                </div>
+                <div class="ui-state-default ui-corner-all">
+                    @Html.ActionLink("Detalhes", "Detalhes", new { id = item.Id }, new { @class = "ui-icon ui-icon-document" })
+                </div>
+                <div class="ui-state-default ui-corner-all">
+                    @Html.ActionLink("Excluir", "Excluir", new { id = item.Id }, new { @class = "ui-icon ui-icon-trash" })
+                </div>
+            </td>
+        </tr>
+    }
+</table>

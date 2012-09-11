@@ -1,0 +1,59 @@
+﻿@model AgendaMedica.Model.Paciente
+
+@{
+    ViewBag.Title = "Excluir";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Excluir</h2>
+
+<h3>Deseja realmente excluir este registro?</h3>
+<fieldset>
+    <legend>Paciente</legend>
+
+    <div class="display-label">Nome</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Nome)
+    </div>
+
+    <div class="display-label">Cpf</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Cpf)
+    </div>
+
+    <div class="display-label">DataNascimento</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DataNascimento)
+    </div>
+
+    <div class="display-label">Cep</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Cep)
+    </div>
+
+    <div class="display-label">Numero</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Numero)
+    </div>
+
+    <div class="display-label">Complemento</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Complemento)
+    </div>
+
+    <div class="display-label">Email</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Email)
+    </div>
+
+    <div class="display-label">DataCadastro</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DataCadastro)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+         <input  type="submit" class="ui-state-default"  value="Excluir" /> |
+        @Html.ActionLink("Retornar para a Lista", "Index")
+    </p>
+}

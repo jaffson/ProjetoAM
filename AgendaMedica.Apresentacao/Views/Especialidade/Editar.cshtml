@@ -1,0 +1,35 @@
+﻿@model AgendaMedica.Model.Especialidade
+
+@{
+    ViewBag.Title = "Editar - Especialidade Médica";
+}
+
+<h2>Editar - Especialidade Médica</h2>
+
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>Especialidade</legend>
+
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Nome)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Nome)
+            @Html.ValidationMessageFor(model => model.Nome)
+        </div>
+
+        <p>            
+            <input  type="submit" class="ui-state-default"  value="Salvar" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Retornar para a lista", "Index")
+</div>

@@ -1,0 +1,84 @@
+﻿@model IEnumerable<AgendaMedica.Model.Paciente>
+@{
+    ViewBag.Title = "Pacientes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2>
+    Paciente</h2>
+
+<input class="ui-state-default" id="btnNovo" onclick="window.location='Adicionar/Adicionar'" type="button" value="Novo" />
+<table class="ui-widget ui-widget-content">
+    <thead class="ui-widget-header">
+        <tr>
+            <th>
+                Nome
+            </th>
+            <th>
+                Cpf
+            </th>
+            <th>
+                DataNascimento
+            </th>
+            <th>
+                Cep
+            </th>
+            <th>
+                Numero
+            </th>
+            <th>
+                Complemento
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                DataCadastro
+            </th>
+            <th>
+            </th>
+        </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cpf)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataNascimento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cep)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Numero)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Complemento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataCadastro)
+            </td>
+            <td  class ="button-container">
+                <div class="ui-state-default ui-corner-all">
+                @Html.ActionLink("Editar", "Editar", new { id = item.Id }, new { @class = "ui-icon  ui-icon-pencil"}) 
+                </div>
+                    
+                <div class="ui-state-default ui-corner-all">
+                @Html.ActionLink("Detalhes", "Detalhes", new { id = item.Id }, new { @class = "ui-icon ui-icon-document" }) 
+                </div>
+                <div class="ui-state-default ui-corner-all">
+                @Html.ActionLink("Excluir", "Excluir", new { id = item.Id }, new { @class = "ui-icon ui-icon-trash" })
+                </div>
+            </td>
+        </tr>
+    }
+</table>
